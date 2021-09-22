@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+.d-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
