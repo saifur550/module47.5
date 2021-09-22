@@ -15,7 +15,7 @@ useEffect(()=>{
            <h2> Buy something from online </h2>
            {
                cosmetics.map(cosmetic => <Cosmetic 
-                key = {Cosmetic.index}
+                key = {cosmetic._id}
                 cosmetic={cosmetic}></Cosmetic>)
            }
         </div>
